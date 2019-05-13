@@ -1,6 +1,6 @@
 # 负载均衡 ULB
 
-ULB（UCloud Load Balancer）是UCloud提供的负载均衡服务，可以在多台云主机间实现应用程序流量的自动分配，并通过健康检查实现故障自动切换，提高业务可用性，并提高资源利用率。
+ULB（UCloud Load Balancer）是UCloud提供的负载均衡服务，可以在多台云主机间实现应用程序流量的自动分配，并通过健康检查实现故障自动切换，提高业务可用性，提高资源利用率。
 
 
 
@@ -10,21 +10,11 @@ ULB（UCloud Load Balancer）是UCloud提供的负载均衡服务，可以在多
 
 {% page-ref page="guide/" %}
 
-{% page-ref page="price.md" %}
+{% page-ref page="faq/" %}
 
 {% page-ref page="apidoc.md" %}
 
-{% page-ref page="key-performance.md" %}
-
-{% page-ref page="example.md" %}
-
-{% page-ref page="faq.md" %}
-
 {% page-ref page="ming-ci-jie-shi.md" %}
-
-{% page-ref page="fu-wu-deng-ji-xie-yi.md" %}
-
-{% page-ref page="yan-shen-yue-du.md" %}
 
 {% page-ref page="newfunctions.md" %}
 
