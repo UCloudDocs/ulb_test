@@ -41,7 +41,7 @@
       * [删除证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/shan-chu-zheng-shu.md)
     * [防火墙](ulb/guide/fang-huo-qiang/README.md)
       * [绑定防火墙](ulb/guide/fang-huo-qiang/bang-ding-fang-huo-qiang.md)
-      * [删除防火墙](ulb/guide/fang-huo-qiang/shan-chu-fang-huo-qiang.md)
+      * [解绑防火墙](ulb/guide/fang-huo-qiang/shan-chu-fang-huo-qiang.md)
       * [编辑防火墙](ulb/guide/fang-huo-qiang/bian-ji-fang-huo-qiang.md)
     * [监控指标](ulb/guide/jian-kong-zhi-biao/README.md)
       * [获取监控指标](ulb/guide/jian-kong-zhi-biao/huo-qu-jian-kong-zhi-biao.md)

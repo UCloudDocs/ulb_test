@@ -2,7 +2,7 @@
 
 ### 协议
 
-ULB有分为四层ULB（TCP/UDP）与七层ULB（HTTP/HTTPS）。
+ULB的协议分为两大类，一类为四层协议，一类为七层协议。四层协议包括TCP/UDP。七层协议包括HTTP和HTTPS。
 
 #### **四层协议（TCP／UDP）**
 
