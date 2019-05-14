@@ -19,7 +19,7 @@
       * [创建ULB](ulb/guide/ulb-xiang-guan-cao-zuo/chuang-jian-ulb.md)
       * [删除ULB](ulb/guide/ulb-xiang-guan-cao-zuo/shan-chu-ulb.md)
       * [编辑ULB](ulb/guide/ulb-xiang-guan-cao-zuo/bian-ji-ulb-shu-xing.md)
-      * [解绑/绑定EIP](ulb/guide/ulb-xiang-guan-cao-zuo/jie-bang-bang-ding-eip.md)
+      * [绑定/解绑EIP](ulb/guide/ulb-xiang-guan-cao-zuo/jie-bang-bang-ding-eip.md)
     * [VServer](ulb/guide/vserver-xiang-guan-cao-zuo/README.md)
       * [创建VServer](ulb/guide/vserver-xiang-guan-cao-zuo/chuang-jian-vserver.md)
       * [删除VServer](ulb/guide/vserver-xiang-guan-cao-zuo/shan-chu-vserver.md)
