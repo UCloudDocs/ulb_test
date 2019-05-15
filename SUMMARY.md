@@ -28,7 +28,7 @@
       * [添加服务节点](ulb/guide/fu-wu-jie-dian-xiang-guan-cao-zuo/tian-jia-fu-wu-jie-dian.md)
       * [删除服务节点](ulb/guide/fu-wu-jie-dian-xiang-guan-cao-zuo/shan-chu-fu-wu-jie-dian.md)
       * [禁用服务节点](ulb/guide/fu-wu-jie-dian-xiang-guan-cao-zuo/jin-yong-fu-wu-jie-dian.md)
-      * [报文转发节点配置](ulb/guide/fu-wu-jie-dian-xiang-guan-cao-zuo/bian-ji-fu-wu-jie-dian.md)
+      * [报文转发模式服务节点配置](ulb/guide/fu-wu-jie-dian-xiang-guan-cao-zuo/bian-ji-fu-wu-jie-dian.md)
     * [内容转发](ulb/guide/zhuan-fa-gui-ze-xiang-guan-cao-zuo/README.md)
       * [添加内容转发规则](ulb/guide/zhuan-fa-gui-ze-xiang-guan-cao-zuo/tian-jia-nei-rong-zhuan-fa-gui-ze.md)
       * [删除内容转发规则](ulb/guide/zhuan-fa-gui-ze-xiang-guan-cao-zuo/shan-chu-nei-rong-zhuan-fa-gui-ze.md)
