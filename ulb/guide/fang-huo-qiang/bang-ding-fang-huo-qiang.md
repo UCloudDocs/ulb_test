@@ -1,6 +1,10 @@
 # 绑定防火墙
 
-ULB可以绑定防火墙，实现对源地址的管理，目前防火墙仅仅对请求代理模式下的VServer生效。
+ULB可以绑定防火墙，实现对源地址的访问控制。
+
+注意：目前防火墙仅仅对请求代理模式下的VServer生效。
+
+### 操作步骤
 
 进入需要绑定防火墙的ULB详情页面，进入“外网防火墙”tab页面。 [![image](https://docs.ucloud.cn/_media/network/ulb/ulb%E7%BB%91%E5%AE%9A%E9%98%B2%E7%81%AB%E5%A2%99.png)](https://docs.ucloud.cn/_detail/network/ulb/ulb%E7%BB%91%E5%AE%9A%E9%98%B2%E7%81%AB%E5%A2%99.png?id=network%3Aulb%3Acommon)
 
