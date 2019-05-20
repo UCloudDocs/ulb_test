@@ -2,11 +2,11 @@
 
 ### 操作步骤
 
-1、进入**负载均衡 ULB**页面后。
-
-2，点击**创建负载均衡**进行ULB实例创建。
+1、进入**负载均衡 ULB**页面。
 
 ![](../../../.gitbook/assets/image%20%288%29.png)
+
+2，点击**创建负载均衡**进行ULB实例创建。
 
 [![image](https://docs.ucloud.cn/_media/network/ulb/ulb2.png)](https://docs.ucloud.cn/_detail/network/ulb/ulb2.png?id=network%3Aulb%3Acommon)
 

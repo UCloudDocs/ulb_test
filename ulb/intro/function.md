@@ -14,7 +14,7 @@
 | 域名转发 | ✔ | — | 支持按照访问域名和URL转发流量到不同的后端节点 |
 | 证书管理 | ✔ | — | 支持HTTPS证书管理 |
 | SSL Offloading | ✔ | — | 支持HTTPS SSL Offloading |
-| WebSocket | ✔ |  | 支持WebSocket协议 |
+| WebSocket | ✔ | ✔ | 支持WebSocket协议 |
 | IPv6地址支持 | ✔ | — | 支持转发IPv6流量 |
 | HTTP/2 | — | — | 暂不支持HTTP/2 |
 | 重定向 | — | — | 暂不支持HTTP访问重定向至HTTPS |
