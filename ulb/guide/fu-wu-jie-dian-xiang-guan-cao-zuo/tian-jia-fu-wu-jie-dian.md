@@ -8,11 +8,11 @@ VServer监听器创建完毕后，需要为VServer添加服务节点，才可使
 
 1，VServer管理-服务节点页面，点击**添加节点。**
 
-![](../../../.gitbook/assets/image%20%2815%29.png)
+![](../../../.gitbook/assets/image%20%2823%29.png)
 
 2，弹窗中进行以下选择。
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2833%29.png)
 
 <table>
   <thead>
@@ -47,11 +47,11 @@ VServer监听器创建完毕后，需要为VServer添加服务节点，才可使
   </tbody>
 </table>3，在可选资源列表中，选中需要添加资源的**CheckBox**，并移入右侧带添加节点列表中。
 
-![](../../../.gitbook/assets/image%20%2818%29.png)
+![](../../../.gitbook/assets/image%20%2826%29.png)
 
 4，点击确定即完成节点添加。
 
-![](../../../.gitbook/assets/image%20%2812%29.png)
+![](../../../.gitbook/assets/image%20%2819%29.png)
 
   
 

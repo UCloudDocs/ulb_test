@@ -10,13 +10,13 @@
 
  2，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，点击**绑定**。
 
-![&#x7ED1;&#x5B9A;&#x5F39;&#x6027;IP](../../../.gitbook/assets/image%20%288%29.png)
+![&#x7ED1;&#x5B9A;&#x5F39;&#x6027;IP](../../../.gitbook/assets/image%20%2812%29.png)
 
 ### 解绑EIP 
 
 1，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，选定需要解绑的EIP，点击**解绑**。 
 
-![](../../../.gitbook/assets/image%20%281%29.png)
+![](../../../.gitbook/assets/image%20%282%29.png)
 
 2，批量解绑ULB绑定的EIP，可前往外网弹性IP页面操作。 ‌ 
 
@@ -24,7 +24,7 @@
 
 1，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，选定需要更改带宽的EIP，点击**更改带宽**。
 
-![&#x66F4;&#x6539;&#x5E26;&#x5BBD;](../../../.gitbook/assets/image%20%2825%29.png)
+![&#x66F4;&#x6539;&#x5E26;&#x5BBD;](../../../.gitbook/assets/image%20%2834%29.png)
 
 
 
