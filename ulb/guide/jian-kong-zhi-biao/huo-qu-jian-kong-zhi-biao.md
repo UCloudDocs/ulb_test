@@ -11,7 +11,7 @@
 * 网络总出口（bps/Kbps/Mbps）：ULB出口总带宽
 * 网络总入口（bps/Kbps/Mbps）：ULB入口总带宽
 
-![](../../../.gitbook/assets/image%20%2839%29.png)
+![](../../../.gitbook/assets/image%20%2848%29.png)
 
 #### VServer监控
 
@@ -22,5 +22,5 @@
 * 网卡出/入包量（个/s）：VServer每秒出/入包量
 * 带宽\(bps/Kbps/Mbps\)：VServer每秒出/入流量
 
-![](../../../.gitbook/assets/image%20%2822%29.png)
+![](../../../.gitbook/assets/image%20%2826%29.png)
 

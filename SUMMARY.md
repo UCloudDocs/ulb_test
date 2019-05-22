@@ -37,7 +37,7 @@
       * [证书格式](ulb/guide/zheng-shu-xiang-guan-cao-zuo/zheng-shu-ge-shi.md)
       * [添加证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/tian-jia-zheng-shu.md)
       * [使用证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/shi-yong-zheng-shu.md)
-      * [更新证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/geng-xin-zheng-shu.md)
+      * [更换证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/geng-xin-zheng-shu.md)
       * [删除证书](ulb/guide/zheng-shu-xiang-guan-cao-zuo/shan-chu-zheng-shu.md)
     * [外网防火墙](ulb/guide/fang-huo-qiang/README.md)
       * [绑定防火墙](ulb/guide/fang-huo-qiang/bang-ding-fang-huo-qiang.md)

@@ -4,7 +4,7 @@
 
 1、进入**负载均衡 ULB**页面。
 
-![](../../../.gitbook/assets/image%20%2824%29.png)
+![](../../../.gitbook/assets/image%20%2828%29.png)
 
 2，点击**创建负载均衡**进行ULB实例创建。
 
@@ -16,7 +16,7 @@
 
 4，点击**立即购买**，即创建成功。
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](../../../.gitbook/assets/image%20%2843%29.png)
 
 ### 配置说明
 
