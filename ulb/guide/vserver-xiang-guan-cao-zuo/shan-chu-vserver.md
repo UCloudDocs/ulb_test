@@ -10,11 +10,15 @@
 
 2，右侧概览信息中，点击**删除VServer**即可完成删除。
 
+![](../../../.gitbook/assets/image%20%2810%29.png)
+
 #### 批量删除VServer
 
 1，点击**管理VServer，**弹出管理弹窗。
 
 2，ULB列表页批量选中资源左边的**CheckBox**。
+
+![](../../../.gitbook/assets/image%20%2820%29.png)
 
 2，点击**删除**即完成批量删除。
 

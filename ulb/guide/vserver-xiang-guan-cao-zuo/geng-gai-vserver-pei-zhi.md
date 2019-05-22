@@ -6,7 +6,11 @@
 
 1，右侧基本信息模块，点击**更改设置**。
 
+![](../../../.gitbook/assets/image%20%289%29.png)
+
 2，弹出更改VServer的弹窗，即可进行VServer配置更改。可更改的配置如下，不修改的配置仍保持不变。
+
+![](../../../.gitbook/assets/image%20%2822%29.png)
 
 <table>
   <thead>

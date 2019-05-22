@@ -4,7 +4,7 @@
 
 1、进入**负载均衡 ULB**页面。
 
-![](../../../.gitbook/assets/image%20%288%29.png)
+![](../../../.gitbook/assets/image%20%2816%29.png)
 
 2，点击**创建负载均衡**进行ULB实例创建。
 
@@ -13,6 +13,10 @@
 3、填写配置信息，进行ULB实例创建。详细配置说明见下方。
 
 [![image](https://docs.ucloud.cn/_media/network/ulb/%E5%88%9B%E5%BB%BAulb-%E5%90%AB%E9%98%B2%E7%81%AB%E5%A2%99.png)](https://docs.ucloud.cn/_detail/network/ulb/%E5%88%9B%E5%BB%BAulb-%E5%90%AB%E9%98%B2%E7%81%AB%E5%A2%99.png?id=network%3Aulb%3Acommon)
+
+4，点击**立即购买**，即创建成功。
+
+![](../../../.gitbook/assets/image%20%2827%29.png)
 
 ### 配置说明
 
