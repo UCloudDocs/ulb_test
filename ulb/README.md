@@ -4,13 +4,13 @@ ULB（UCloud Load Balancer）是UCloud提供的负载均衡服务，可以在多
 
 
 
-{% page-ref page="intro/" %}
+{% page-ref page="intro" %}
 
-{% page-ref page="fast/" %}
+{% page-ref page="fast" %}
 
-{% page-ref page="guide/" %}
+{% page-ref page="guide" %}
 
-{% page-ref page="faq/" %}
+{% page-ref page="faq" %}
 
 {% page-ref page="apidoc.md" %}
 
