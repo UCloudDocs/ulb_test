@@ -1,3 +1,5 @@
+{{ indexmenu_n >1}}
+
 # 添加VServer
 
 ### 操作步骤 <a id="&#x521B;&#x5EFA;vserver&#x76D1;&#x542C;&#x5668;"></a>
