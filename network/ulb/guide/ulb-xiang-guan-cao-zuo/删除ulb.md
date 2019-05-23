@@ -1,3 +1,5 @@
+{{ indexmenu_n >2}}
+
 # 删除ULB
 
 删除ULB实例后，绑定的EIP会被一并删除。若EIP需要保留，可先解绑，再删除ULB实例。
