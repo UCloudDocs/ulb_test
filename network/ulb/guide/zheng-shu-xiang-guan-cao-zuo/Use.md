@@ -13,7 +13,7 @@
 
 3、选择监听类型为请求代理（七层），监听协议为HTTPS后，选择SSL证书，此时可以选择证书管理系统中存储的证书。（注：建议HTTPS端口使用443）
 
-![](../../../.gitbook/assets/image%20%2816%29.png)
+![](https://static.ucloud.cn/df8d0249d0bd4eacb50a91608f7e37f7.png)
 
 4、配置完成后可在左侧看到新增的VServer，并可以VServer的证书
 
