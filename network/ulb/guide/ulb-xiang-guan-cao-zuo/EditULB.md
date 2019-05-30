@@ -30,7 +30,7 @@
 
 2，**备注**，非必填项，不填写即为空。
 
-![&#x4FEE;&#x6539;&#x540D;&#x79F0;&#x53CA;&#x5907;&#x6CE8;](https://static.ucloud.cn/2287c27f53f04550bb305b4fe4fd7a0f.png)
+![](https://static.ucloud.cn/2287c27f53f04550bb305b4fe4fd7a0f.png)
 
 ### 更改业务组
 
@@ -54,5 +54,5 @@
 
 2，**业务组名称，**选择新建业务组后为必填项。
 
-![&#x66F4;&#x6539;&#x4E1A;&#x52A1;&#x7EC4;](https://static.ucloud.cn/0ab0bc2fbb0a4d1a9983d83c9d4efa9e.png)
+![](https://static.ucloud.cn/0ab0bc2fbb0a4d1a9983d83c9d4efa9e.png)
 
