@@ -1,4 +1,4 @@
-{{ indexmenu_n >50}}
+{{indexmenu_n >50}}
 
 
 # 对ULB压测时会为何出现连接失败？
