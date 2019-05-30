@@ -1,4 +1,4 @@
-{{ indexmenu_n >9}}
+{{indexmenu_n>9}}
 
 # 使用限制
 
