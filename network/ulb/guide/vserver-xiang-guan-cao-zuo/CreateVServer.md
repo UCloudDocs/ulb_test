@@ -2,7 +2,7 @@
 
 # 添加VServer
 
-### 操作步骤 <a id="&#x521B;&#x5EFA;vserver&#x76D1;&#x542C;&#x5668;"></a>
+### 操作步骤 
 
 ULB实例创建完成后，可点击**详情**进入**VServer管理页面**添加VServer。
 
