@@ -8,9 +8,9 @@
 
 1，右侧基本信息模块，点击**更改设置**。
 
-![](../../../.gitbook/assets/image%20%2836%29.png)
+![](https://static.ucloud.cn/cc9a1d4d75cf49f6b738027c33b3e69c.png)
 
 2，下拉框中选择要更换的证书，点击确定即可更换成功。
 
-![](../../../.gitbook/assets/image%20%2844%29.png)
+![](https://static.ucloud.cn/32563f3f7a754236af26f08e552b22bc.png)
 
