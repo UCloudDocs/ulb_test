@@ -13,7 +13,7 @@
 
 3，点击**解绑防火墙。**
 
-![](../../../.gitbook/assets/image%20%287%29.png)
+![](https://static.ucloud.cn/7641d82eaaa64ccbb4cbdb0957f62d3d.png)
 
 4，点击**确定**，完成解绑防火墙。 
 
