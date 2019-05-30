@@ -12,7 +12,7 @@
 
 3，点击**更换防火墙**，选择需要重新绑定的防火墙。
 
-![](../../../.gitbook/assets/image%20%2831%29.png)
+![](https://static.ucloud.cn/0eb7eb043cea47c8b561ce16fc9335c4.png)
 
 4，点击**确定**，完成更换防火墙。 
 
