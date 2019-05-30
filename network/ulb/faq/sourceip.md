@@ -28,6 +28,3 @@ CustomLog logs/access_log trueip_combined
        pattern="%{X-FORWARDED-FOR}i %l %u %t %r %s %b %D %q %{User-Agent}i %T" resolveHosts="false"/> 
 </Host>
 ```
-
-###  <a id="&#x7ECF;&#x5E38;&#x53D1;&#x73B0;ulb&#x540E;&#x7AEF;&#x4E91;&#x4E3B;&#x673A;&#x7684;&#x8BBF;&#x95EE;&#x65E5;&#x5FD7;&#x4E2D;&#x6709;&#x5927;&#x91CF;&#x7684;&#x5185;&#x7F51;ip&#x8BBF;&#x95EE;_&#x8BF7;&#x95EE;&#x662F;&#x6B63;&#x5E38;&#x8BBF;&#x95EE;&#x4E48;"></a>
-
