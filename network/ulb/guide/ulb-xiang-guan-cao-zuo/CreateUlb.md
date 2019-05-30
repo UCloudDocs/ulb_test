@@ -10,11 +10,11 @@
 
 2，点击**创建负载均衡**进行ULB实例创建。
 
-[![image](https://docs.ucloud.cn/_media/network/ulb/ulb2.png)](https://docs.ucloud.cn/_detail/network/ulb/ulb2.png?id=network%3Aulb%3Acommon)
+![](https://docs.ucloud.cn/_media/network/ulb/ulb2.png)
 
 3、填写配置信息，进行ULB实例创建。详细配置说明见下方。
 
-[![image](https://docs.ucloud.cn/_media/network/ulb/%E5%88%9B%E5%BB%BAulb-%E5%90%AB%E9%98%B2%E7%81%AB%E5%A2%99.png)](https://docs.ucloud.cn/_detail/network/ulb/%E5%88%9B%E5%BB%BAulb-%E5%90%AB%E9%98%B2%E7%81%AB%E5%A2%99.png?id=network%3Aulb%3Acommon)
+![](https://docs.ucloud.cn/_media/network/ulb/%E5%88%9B%E5%BB%BAulb-%E5%90%AB%E9%98%B2%E7%81%AB%E5%A2%99.png)
 
 4，点击**立即购买**，即创建成功。
 
