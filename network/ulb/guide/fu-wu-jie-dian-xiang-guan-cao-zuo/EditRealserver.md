@@ -6,7 +6,7 @@
 
 “报文转发模式”下，由于用户访问会经ULB直接透传，必须保证访问地址落在后端真实服务节点上，所以要将负载均衡的内/外网IP地址配置在后端服务节点中。配置方法如下。
 
-#### CentOS中的配置方法 <a id="centos&#x4E2D;&#x7684;&#x914D;&#x7F6E;&#x65B9;&#x6CD5;"></a>
+#### CentOS中的配置方法
 
 1、创建虚拟网卡配置文件
 
@@ -100,7 +100,7 @@ Pause
 
 执行效果如图所示
 
-[![image](https://docs.ucloud.cn/_media/network/ulb/win4.png)](https://docs.ucloud.cn/_detail/network/ulb/win4.png?id=network%3Aulb%3Acommon)
+![](https://docs.ucloud.cn/_media/network/ulb/win4.png)
 
 建议配置windows系统时通过VNC登陆进行操作，如以上操作未生效，可在执行完"netsh"后重启网卡或服务进行查看。
 
