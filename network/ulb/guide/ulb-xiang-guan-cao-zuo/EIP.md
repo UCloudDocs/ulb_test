@@ -6,27 +6,27 @@
 
 进入**负载均衡 ULB**页面，可对外网ULB绑定的外网弹性IP进行以下操作。更多操作可前往外网弹性IP控制台进行。
 
-### 绑定EIP ‌ 
+### 绑定EIP 
 
-1，ULB列表页选定外网ULB资源后，点击**绑定弹性IP**，下拉框中选择已有的EIP。若当前无EIP，可前往外网弹性IP页面申请。 ‌
+1，ULB列表页选定外网ULB资源后，点击**绑定弹性IP**，下拉框中选择已有的EIP。若当前无EIP，可前往外网弹性IP页面申请。
 
  2，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，点击**绑定**。
 
-![&#x7ED1;&#x5B9A;&#x5F39;&#x6027;IP](../../../.gitbook/assets/image%20%2814%29.png)
+![&#x7ED1;&#x5B9A;&#x5F39;&#x6027;IP](https://static.ucloud.cn/3d27f51156964551a8c168336db87809.png)
 
 ### 解绑EIP 
 
 1，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，选定需要解绑的EIP，点击**解绑**。 
 
-![](../../../.gitbook/assets/image%20%282%29.png)
+![](https://static.ucloud.cn/f8f8e10210da4986b27243f7a08be85e.png)
 
-2，批量解绑ULB绑定的EIP，可前往外网弹性IP页面操作。 ‌ 
+2，批量解绑ULB绑定的EIP，可前往外网弹性IP页面操作。
 
 ### 更改带宽 
 
 1，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，选定需要更改带宽的EIP，点击**更改带宽**。
 
-![&#x66F4;&#x6539;&#x5E26;&#x5BBD;](../../../.gitbook/assets/image%20%2841%29.png)
+![&#x66F4;&#x6539;&#x5E26;&#x5BBD;](https://static.ucloud.cn/138aff2bfb234d44a4f6cef6c25c1f86.png)
 
 
 
