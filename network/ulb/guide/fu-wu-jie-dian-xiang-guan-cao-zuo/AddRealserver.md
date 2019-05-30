@@ -6,15 +6,15 @@ VServer监听器创建完毕后，需要为VServer添加服务节点，才可使
 
 ### 操作步骤
 
-进入**VServer管理页面**，点击**服务节点，**进行服务节点管理。
+进入**VServer管理页面**，点击**服务节点**，进行服务节点管理。
 
-1，VServer管理-服务节点页面，点击**添加节点。**
+1，VServer管理-服务节点页面，点击**添加节点**。
 
-![](../../../.gitbook/assets/image%20%2827%29.png)
+![](https://static.ucloud.cn/db3e5c210e184820bf3263813620d2bb.png)
 
 2，弹窗中进行以下选择。
 
-![](../../../.gitbook/assets/image%20%2840%29.png)
+![](https://static.ucloud.cn/9e30eac4e08b487c800e93d56b9f0f08.png)
 
 <table>
   <thead>
