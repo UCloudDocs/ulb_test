@@ -12,7 +12,7 @@
 
 * 必选，网站的证书文件（cer/crt/pem格式），文件的文本格式如下：
 
-```text
+```
 -----BEGIN MY CERTIFICATE-----
 ...
 -----END MY CERTIFICATE-----
@@ -20,7 +20,7 @@
 
 * 必选，私钥文件（key文件），文件的文本格式如下：
 
-```text
+```
 -----BEGIN RSA PRIVATE KEY-----
 ... 
 -----END RSA PRIVATE KEY-----
@@ -28,7 +28,7 @@
 
 * 可选，中间证书、根证书（证书链，cer/crt/pem格式），文件的文本格式如下：
 
-```text
+```
 -----BEGIN CERTIFICATE-----
 ...
 -----END CERTIFICATE-----
@@ -43,7 +43,7 @@
 
 如果您选择手动填写证书，则文本需要依次包含以下字段：私钥、网站证书、中间证书、根证书等，格式参考如下（在复制时请核对证书的完整性）：
 
-```text
+```
 -----BEGIN RSA PRIVATE KEY-----
 ... 
 -----END RSA PRIVATE KEY-----
