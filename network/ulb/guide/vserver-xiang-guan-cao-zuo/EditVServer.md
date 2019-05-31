@@ -14,7 +14,7 @@
 
 ![](https://static.ucloud.cn/1598e21f7e224fffb09fe920af2e7130.png)
 
-|配置|	说明|
+|配置|说明|
 |-|-|
 |VServer名称|VServer名称，必填项。|
 |负载均衡算法|监听器对数据包的负载方式。|
