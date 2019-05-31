@@ -10,7 +10,7 @@
 
 1、创建虚拟网卡配置文件
 
-```text
+```
 # touch /etc/sysconfig/network-scripts/ifcfg-lo:1
 ```
 
@@ -26,7 +26,7 @@
 
 3、将命令中得到的内容添加进"/etc/sysconfig/network-scripts/ifcfg-lo:1"中，即如下内容：
 
-```text
+```
 DEVICE=lo:1
 IPADDR=$VIP
 NETMASK=255.255.255.255
@@ -34,7 +34,7 @@ NETMASK=255.255.255.255
 
 4、启动虚拟网卡
 
-```text
+```
 # ifup lo:1
 ```
 
@@ -52,7 +52,7 @@ NETMASK=255.255.255.255
 
 2、将命令中得到的内容添加进"/etc/network/interfaces"中，即如下内容：
 
-```text
+```
 auto lo:1
 iface lo:1 inet static
 address $VIP
@@ -63,7 +63,7 @@ netmask 255.255.255.255
 
 3、启动虚拟网卡
 
-```text
+```
 # ifup lo:1
 ```
 
@@ -89,7 +89,7 @@ netmask 255.255.255.255
 
 在“cmd”中执行以下命令，其中$LOCAL代表本地接口名称，$LO代表回环接口名称。
 
-```text
+```
 @echo off
 netsh interface ipv4 set interface "$LOCAL" weakhostreceive=enabled
 netsh interface ipv4 set interface "$LOCAL" weakhostsend=enabled
