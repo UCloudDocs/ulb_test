@@ -8,7 +8,7 @@ VServer支持报文转发、请求代理两种类型。报文转发模式支持T
 
 请求代理模式下，ULB已经默认开启了x-Forwarded-For选项，可以从HTTP报头中的X-Forward-For字段中获取客户端的源地址。
 
-```text
+```
 # Nginx示例
 log_format  upstream  '$time_iso8601 $http_x_forwarded_for $host $upstream_response_time $request $status $upstream_addr';
 
