@@ -18,4 +18,4 @@ ULB服务主要由以下三个部分构成：
 * 虚拟服务器／监听器（VServer）：ULB监听器，每个VServer是一组负载均衡前端端口配置。
 * 服务节点（RealServer／Backend）：后端真实处理请求的云资源。
 
-![ULB架构](https://static.ucloud.cn/4f99935ea27846559c12661ac55d34f1.png)
+![](https://static.ucloud.cn/4f99935ea27846559c12661ac55d34f1.png)
