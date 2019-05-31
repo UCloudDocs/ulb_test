@@ -18,7 +18,7 @@
 
 1，点击**管理VServer**，弹出管理弹窗。
 
-2，ULB列表页批量选中资源左边的**CheckBox**。
+2，ULB列表页批量选中资源左边的**勾选框**。
 
 ![](https://static.ucloud.cn/a52e2f6d15e24df0a398233a59e22b2b.png)
 
