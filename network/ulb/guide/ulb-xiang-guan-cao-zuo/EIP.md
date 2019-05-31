@@ -12,7 +12,7 @@
 
  2，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，点击**绑定**。
 
-![&#x7ED1;&#x5B9A;&#x5F39;&#x6027;IP](https://static.ucloud.cn/3d27f51156964551a8c168336db87809.png)
+![](https://static.ucloud.cn/3d27f51156964551a8c168336db87809.png)
 
 ### 解绑EIP 
 
@@ -26,7 +26,7 @@
 
 1，ULB列表页选定外网ULB资源后，点击**详情**进入概览页。外网弹性IP卡片，选定需要更改带宽的EIP，点击**更改带宽**。
 
-![&#x66F4;&#x6539;&#x5E26;&#x5BBD;](https://static.ucloud.cn/138aff2bfb234d44a4f6cef6c25c1f86.png)
+![](https://static.ucloud.cn/138aff2bfb234d44a4f6cef6c25c1f86.png)
 
 
 
