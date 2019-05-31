@@ -1,3 +1,5 @@
+[前往 Github](https://github.com/UCloudDocs/UCloud-doc-test/edit/master/ulb/intro/architecture.md)
+
 {{indexmenu_n>7}}
 
 # 性能指标
