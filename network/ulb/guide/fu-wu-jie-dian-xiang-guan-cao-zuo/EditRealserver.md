@@ -22,7 +22,7 @@
 
 [获取负载均衡信息-DescribeULB](https://docs.ucloud.cn/api/ulb-api/describe_ulb)
 
-内网ULB时，这里的$VIP即为负载均衡器的内网IP地址。外网ULB时，即为负载均衡器的EIP地址。
+内网ULB时，这里的$VIP即为负载均衡器的内网服务IP地址。外网ULB时，即为负载均衡器的外网服务IP地址（即EIP）。
 
 3、将命令中得到的内容添加进"/etc/sysconfig/network-scripts/ifcfg-lo:1"中，即如下内容：
 
@@ -40,15 +40,15 @@ NETMASK=255.255.255.255
 
 #### Ubuntu中的配置方法
 
-1、获取网卡VIP 您可以在管理控制台概览页查看到我们的VIP，如下图所示
+1、获取服务IP地址 您可以在管理控制台概览页查看到对应的ULB服务IP地址，如下图所示
 
 ![](https://docs.ucloud.cn/_media/network/ulb/%E8%8E%B7%E5%8F%96vip.png)
 
-如果您使用自动化脚本配置，我们建议您使用我们的API describe\_ulb获取您配置所需的VIP。如何调用此API请参考：
+若使用自动化脚本配置，可使用API describe\_ulb获取服务IP地址。如何调用此API请参考：
 
 [获取负载均衡信息-DescribeULB](https://docs.ucloud.cn/api/ulb-api/describe_ulb)
 
-内网ULB时，这里的$VIP即为负载均衡器的内网IP地址。外网ULB时，即为负载均衡器的EIP地址。
+内网ULB时，这里的$VIP即为负载均衡器的内网服务IP地址。外网ULB时，即为负载均衡器的外网服务IP地址（即EIP）。
 
 2、将命令中得到的内容添加进"/etc/network/interfaces"中，即如下内容：
 
@@ -83,7 +83,7 @@ netmask 255.255.255.255
 
 ![](https://docs.ucloud.cn/_media/network/ulb/win3.png)
 
-图中10.10.94.111的地址，即为负载均衡器的内网VIP地址。外网ULB时，VIP即为负载均衡器的EIP地址。
+图中10.10.94.111的地址，即为负载均衡器的内网服务IP地址。
 
 3、激活lo接口
 
