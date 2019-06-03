@@ -17,5 +17,5 @@
 ![](https://static.ucloud.cn/df8d0249d0bd4eacb50a91608f7e37f7.png)
 
 
-4、配置完成后可在左侧看到新增的VServer，并可以VServer的证书。
+4、配置完成后可在左侧看到新增的VServer，并可以查看VServer绑定的证书。
 
