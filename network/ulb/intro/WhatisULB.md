@@ -1,4 +1,4 @@
-[前往 Github](https://github.com/UCloudDocs/UCloud-doc-test/edit/master/ulb/intro/architecture.md)
+[前往 Github](https://github.com/UCloudDocs/UCloud-document/tree/master/network/ulb)
 
 {{indexmenu_n>1}}
 
