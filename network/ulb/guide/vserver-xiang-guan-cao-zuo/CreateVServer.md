@@ -12,7 +12,8 @@ ULB实例创建完成后，可点击**详情**进入**VServer管理页面**添�
 
 ![](https://docs.ucloud.cn/_media/network/ulb/vserver%E5%BB%BA%E7%AB%8Btcp.png)
 
-注意：外网ULB，TCP协议支持“报文转发模式”与“请求代理模式”；内网ULB，TCP协议仅支持“报文转发模式“
+> 外网ULB，TCP协议支持“报文转发模式”与“请求代理模式”；内网ULB，TCP协议仅支持“报文转发模式“。
+
 
 ![](https://docs.ucloud.cn/_media/network/ulb/%E6%B7%BB%E5%8A%A0vserver-tcp.png)
 
