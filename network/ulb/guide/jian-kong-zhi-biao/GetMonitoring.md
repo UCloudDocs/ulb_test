@@ -8,7 +8,7 @@
 
 #### ULB监控
 
-1，进入概览页面，右侧监控信息卡片。
+1，进入概览页面，右侧显示监控信息。
 
 * 网络总出口（bps/Kbps/Mbps）：ULB出口总带宽
 * 网络总入口（bps/Kbps/Mbps）：ULB入口总带宽
@@ -17,7 +17,7 @@
 
 #### VServer监控
 
-1，进入VServer管理页面，选中VServer，右侧概览页面的监控信息。
+1，进入VServer管理页面，选中VServer，右侧概览页面显示监控信息。
 
 * 新建连接数（个/s）：VServer每秒新建连接个数监控
 * VServer连接数（个/s）：VServer已有连接数监控
