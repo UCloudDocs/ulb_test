@@ -27,7 +27,7 @@ VServer监听器创建完毕后，需要为VServer添加服务节点，才可使
 
 ![](https://static.ucloud.cn/47c3c32ad1a0451a81662a25767fea87.png)
 
-4，点击确定即完成节点添加。
+4，点击**确定**即完成节点添加。
 
 ![](https://static.ucloud.cn/ca55ac7d3cec46c281c409093303c787.png)
 
