@@ -7,7 +7,7 @@ UAPI为用户提供零编码实现对UCloud提供的API发送请求的方式，�
 
 # UAPI简介
 
-可在[API列表](https://console.ucloud.cn/uapi/ucloudapi)选择相应的云产品，浏览该产品开放的API，点击API名称即可进入详情页。详情页提供以下功能：
+可在[API列表](https://console.ucloud.cn/uapi/ucloudapi)选择相应的云产品，浏览该产品已开放的API。点击API名称即可进入详情页。详情页提供以下功能：
 * 查看**参数说明**，填写**请求参数**
 * 执行**发送请求**，分析**响应结果**
 * 查阅**响应说明**，复制**参考示例**
