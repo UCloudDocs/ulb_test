@@ -3,7 +3,7 @@
 
 # UAPI简介
 
-UAPI为用户提供零编码实现对UCloud提供的API发送请求的方式，可有效提升调试API的效率。立即体验[ULB相关API](https://console.ucloud.cn/uapi/product?id=ulb)。
+UAPI为用户提供零编码实现对UCloud提供的API发送请求的方式，可有效提升调试API的效率。立即体验[ULB API](https://console.ucloud.cn/uapi/product?id=ulb)。
 
 
 可在[API列表](https://console.ucloud.cn/uapi/ucloudapi)选择相应的云产品，浏览该产品已开放的API。点击API名称即可进入详情页。详情页提供以下功能：
@@ -12,7 +12,7 @@ UAPI为用户提供零编码实现对UCloud提供的API发送请求的方式，�
 * 查阅**响应说明**，复制**参考示例**
 
 ![](https://static.ucloud.cn/9f9152700a5146f08e70787b1d4add19.gif)
-[查看完整教程>>](https://static.ucloud.cn/9f9152700a5146f08e70787b1d4add19.gif)。
+[全屏查看使用教程>>](https://static.ucloud.cn/9f9152700a5146f08e70787b1d4add19.gif)。
 
 无需搭建环境、无需编写代码、无需处理签名即可发送请求（请求登录态即为当前登录的账户）。
 
