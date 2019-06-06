@@ -12,7 +12,7 @@ UAPI为用户提供零编码实现对UCloud提供的API发送请求的方式，�
 * 执行**发送请求**，分析**响应结果**
 * 查阅**响应说明**，复制**参考示例**
 
-![haha](https://static.ucloud.cn/a1b5c6bbd0264b58a6d167d9ed37a539.gif)
+![haha](https://static.ucloud.cn/9f9152700a5146f08e70787b1d4add19.gif)
 
 无需搭建环境、无需编写代码、无需处理签名即可发送请求（请求登录态即为当前登录的账户）。
 
