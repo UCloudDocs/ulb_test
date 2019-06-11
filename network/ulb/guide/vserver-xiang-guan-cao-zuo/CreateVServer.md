@@ -22,7 +22,7 @@ ULB实例创建完成后，可点击**详情**进入**VServer管理页面**添�
 
 创建VServer监听器的选项包含以下内容：
 
-|VServer名称|VServer监听器管理名称|
+|配置|说明|
 |-|-|
 |VServer名称|VServer名称，必填项。|
 |协议和端口|监听器所监听的协议及端口，包含HTTP/HTTPS/TCP/UDP四种协议。|
