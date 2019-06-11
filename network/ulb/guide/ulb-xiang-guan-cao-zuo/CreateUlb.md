@@ -33,3 +33,5 @@
 |计费方式|选择“新购”外网弹性IP时，需选择IP计费方式。可选带宽、流量、共享带宽等。|
 |带宽|选择“新购”外网IP时，需选择IP的带宽值。|
 |外网防火墙|外网模式下，可绑定外网防火墙进行访问控制。可选不绑定、绑定。|
+
+ [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
