@@ -32,3 +32,5 @@ ULB实例创建完成后，可点击**详情**进入**VServer管理页面**添�
 |服务会话保持|对于HTTP/HTTPS协议，使用默认/自定义关键词对用户登录态的保持。|
 |连接保持时间|TCP请求代理模式下，或HTTP、HTTPS协议，可选择客户端请求连接的有效时间。可选时间范围[1-86400]秒|
 |节点健康检查|根据所选协议不同，检查方式包含服务地址/端口检查和HTTP检查两种方式。|
+
+ [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
