@@ -14,7 +14,7 @@ ULB（UCloud Load Balancer）提供流量分发的能力，保证业务可扩展
 
 内网ULB4采用了类似于DR的转发模式。内网负载均衡转发示意图如下：
 
-![](https://static.ucloud.cn/f8493e71f89c41fdbac07d5be9b89737.jpg)
+![](https://static.ucloud.cn/860b15cd48ec4d099e47886928b832e2.png)
 
 如上图，同一个集群的ULB4通过向其上联的接入交换机宣告相同的VIP，而接入交换机配置了ECMP算法，因此可将流量负载均衡到多台服务器上，从而够成了集群。当某些ULB4发生转发异常的时候，BGP报文转发也会停止转发，在三秒之内该ULB4服务器就会被剔出集群，从而保证高可用，同时集群健康检查模块也将发出告警，使得工程师介入处理。此外同一个ULB4集群的服务器都是跨可用区分布的，从而保证集群跨可用区高可用。
 
@@ -24,7 +24,7 @@ ULB（UCloud Load Balancer）提供流量分发的能力，保证业务可扩展
 
 外网ULB4与内网ULB4类似，同样是基于DPDK技术自研的。单台服务器可以提供超过3000万并发连接，1000万 pps，10G线速转发能力。采用集群部署，单个集群至少4台服务器。利用ECMP+ BGP实现高可用。同样的，它采用了类似于DR的转发模式。外网负载均衡转发示意图如下：
 
-![](https://static.ucloud.cn/bb42f2ca64e7417cac72dc30d6d3ead6.png)
+![](https://static.ucloud.cn/117279d9aac8448f9688d5ca5c282b94.png)
 
 与内网ULB4不同的是，外网流量是从公网进来的。Client访问ULB4的流量进入UCloud POP点，进入UVER（UCloud Virtual Edge Router）。UVER是UCloud自研的公网流量计算中心，它能够从业务库中获知所有的EIP的下一跳信息，通过BGP引流后，将EIP的流量打隧道送到相应的下一跳。一个ULB4的EIP会落到ULB4集群中的所有服务器上，因此UVER将这部分流量，按照一致性哈希算法负载均衡送到集群各个服务器中。后续的流程与内网ULB4类似。Backend节点中需要将ULB的EIP绑定在LO，并监听服务，而回程报文将直接送到UVER，并通过internet返回Client。
 
