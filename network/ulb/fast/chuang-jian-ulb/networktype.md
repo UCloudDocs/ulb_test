@@ -12,3 +12,4 @@
 
 内网ULB，对外提供服务的IP地址为内网IP，用于接收内网的客户端请求。若需要ULB转发内网请求，创建ULB时选择“内网”。内网IP地址将从选择的子网中分配。
 
+[![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
