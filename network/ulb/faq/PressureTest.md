@@ -9,3 +9,4 @@
 
 所以在对ULB进行压测时，请尽量使用Linux作为压测模拟客户端，如果必须使用Windows系统作为压测模拟客户端，则需添加系统注册表中关于TCP时间戳的选项，该选项默认在Windows系统中是未激活的，具体配置参见 [Windows帮助文档](https://technet.microsoft.com/en-us/library/cc938205.aspx) 。
 
+[![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
