@@ -47,3 +47,4 @@ HTTP的请求代理的工作是：接收请求，解析请求，根据转发规�
 
 如无在一个服务节点上监听多个端口的需求，则可选择报文转发模式，转发性能占优。
 
+ [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
