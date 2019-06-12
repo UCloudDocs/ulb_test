@@ -30,3 +30,5 @@
 
 3，点击**确定**，即完成批量删除证书。
 
+
+ [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
