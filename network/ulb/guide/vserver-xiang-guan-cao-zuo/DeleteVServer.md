@@ -2,11 +2,11 @@
 
 # 删除VServer
 
-### 操作步骤
+## 操作步骤
 
 进入**VServer管理页面**。
 
-#### 删除单个VServer
+### 删除单个VServer
 
 1，选择需要删除的VServer，点击左侧的**VServer名称**。
 
@@ -14,7 +14,7 @@
 
 ![](https://static.ucloud.cn/fc91a84b6c364c8fb7aefddd3812c3c9.png)
 
-#### 批量删除VServer
+### 批量删除VServer
 
 1，点击**管理VServer**，弹出管理弹窗。
 
