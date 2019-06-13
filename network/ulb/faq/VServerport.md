@@ -22,4 +22,4 @@ iptables -t nat -A PREROUTING -d 10.10.10.10 -p tcp --dport 80 -j DNAT --to-dest
 4、保存配置：service iptables save  
 5、启动iptables ：service iptables start
 
-[![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
+[[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
