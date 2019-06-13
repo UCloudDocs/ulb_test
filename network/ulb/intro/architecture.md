@@ -44,5 +44,5 @@ ULB7基于Haproxy开发，单个实例可以支持超过40w pps，2Gbps，以及
 
 相对于ULB7，ULB4转发能力更强，适合与追求转发性能的场景。而ULB7则可以对七层数据进行处理，可以进行SSL的卸载，执行域名转发、路径转发等功能，并且后端节点不需要额外配置VIP。
 
- [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
+ [[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
 
