@@ -63,4 +63,4 @@ DER转PEM：
 
 私钥转化：openssl rsa -inform DER -outform PEM -in privatekey.der -out privatekey.pem
 
-[[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
+[[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/e7fec9d74c744c448d757fad04fe1bcb.png}}]]

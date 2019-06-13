@@ -16,5 +16,5 @@
 
 3，删除后，ULB实例将被删除。外网ULB，对外提供服务的外网弹性IP（EIP）使用超过7天，删除后将进入EIP回收站。
 
-[[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
+[[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/e7fec9d74c744c448d757fad04fe1bcb.png}}]]
 

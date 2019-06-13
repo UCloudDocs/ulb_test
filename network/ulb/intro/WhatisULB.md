@@ -20,4 +20,4 @@ ULB服务主要由以下三个部分构成：
 
 ![](https://static.ucloud.cn/4f99935ea27846559c12661ac55d34f1.png)
 
- [[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
+ [[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/e7fec9d74c744c448d757fad04fe1bcb.png}}]]
