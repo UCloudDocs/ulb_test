@@ -7,5 +7,5 @@
 | - | - | - | - | - |
 | 外网防火墙 | 2019.4.20 | 北京二 | 外网ULB7 |  |
 
- [![](https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png)](https://github.com/UCloudDocs/UCloud-document/issues/3)
+ [[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/708409d71c0a4a8c8d1fbd6fe3417b36.png}}]]
 
