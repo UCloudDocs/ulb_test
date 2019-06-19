@@ -19,6 +19,9 @@ ULB可以绑定防火墙，实现对源地址的访问控制。
 
 4，点击**确定**，完成绑定。 
 
+> 请注意：防火墙规则仅仅对ULB请求代理模式下的VServer生效。请务必保证防火墙规则中放行了该VServer的相应端口。同时，ICMP相关规则是不生效的。
+
+
 5，绑定完成后，将展示防火墙的相关信息。
 
  [[https://github.com/UCloudDocs/UCloud-document/issues/3|{{https://static.ucloud.cn/e7fec9d74c744c448d757fad04fe1bcb.png}}]]
