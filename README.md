@@ -20,6 +20,7 @@ DeleteSecGroupRule
 
 # 安全组与资源绑定关系 API
 AssociateSecGroup
+AssociateSecGroupDynamic
 DisassociateSecGroup
 DescribeSecGroupAssociation
 DescribeSecGroupResource
@@ -307,6 +308,39 @@ PrioritySecGroup 信息字段如下：
 
 ---
 
+#### AssociateSecGroupDynamic
+
+动态绑定安全组：已最高优先级绑定该安全组，如果最高优先级已使用，则动态调整优先级。
+接口中如果需要调整优先级的资源比较多，接口会比较耗时，故限制批量资源数量为 20（超过这个数量会报错）。
+
+- 请求参数
+
+| 名称 | 类型 | 是否必填 | 描述 |
+| - | - | - | - |
+| VPCId | string | 是 | VPC ID
+| ResourceId | string 数组 | 是 | （主机/虚拟网卡等）资源 ID
+| SecGroupId | string | 是 | 安全组 ID
+
+备注：如果存在绑定配额已满的资源，则返回错误；
+如果资源已绑定该安全组，则忽略该资源；
+如果资源已使用最高优先级绑定其他安全组，则动态调整该资源已绑定的优先级（依次降低一个优先级），把接口中的安全组使用最高优先级绑定。
+
+- 应答参数
+
+| 名称 | 类型 | 描述
+| - | - | -
+| Failed | FailedItem 数组  | 失败信息，资源 ID 和 对应的失败信息
+
+FailedItem 信息字段如下：
+| 名称 | 类型 | 描述
+| - | - | -
+| ResourceId | string | 资源 ID
+| Message | string | 失败信息
+
+备注：只有部分失败时，Failed 字段才有意义，表示绑定失败的资源及其原因
+
+---
+
 #### DisassociateSecGroup
 
 - 请求参数
@@ -477,7 +511,20 @@ SecGroupResourceInfo 信息字段如下：
 | 名称 | 类型 | 描述
 | - | - | -
 | TotalCount | int | 资源的总数量
-| DataSet | ResourceSecgroupInfo 数组 | 资源绑定的安全组信息
+| DataSet | ResourceSecgroupInfoEx 数组 | 资源绑定的安全组信息
+
+ResourceSecgroupInfoEx 信息字段如下：
+| 名称 | 类型 | 描述
+| - | - | -
+| ResourceId | string | 资源 ID
+| Count | int | 该资源绑定的安全组数量
+| SecGroupInfo | BindingSecGroupInfo 数组
+| Uni | ResourceSecgroupInfo 数组
+
+说明：
+ResourceSecgroupInfoEx 中如果资源是非网卡资源（如云主机）且绑定虚拟网卡，
+则该资源不会绑定安全组，安全组只会绑定到虚拟网卡上；故 Count 为 0，Uni 非空，
+Uni 为一个网卡数组，表示每个虚拟网卡绑定的安全组信息。
 
 ResourceSecgroupInfo 信息字段如下：
 | 名称 | 类型 | 描述
@@ -495,17 +542,14 @@ BindingSecGroupInfo 信息字段如下：
 
 示例
 ```json
-# 请求
+# 虚拟网卡类型 请求
 {
-    "Action": "QueryResourceSecgroup",
+    "Action": "DescribeResourceSecGroup",
     "Backend": "SecGroup",
     "az_group": 1000001,
     "organization_id": 63782908,
     "top_organization_id": 50120017,
-    "ResourceType": "uhost",
-    "ResourceId": [
-        "uhost-vweq4cs5"
-    ],
+    "ResourceType": "uni",
     "Offset": 0,
     "Limit": 10,
     "request_uuid": "testfts-secgroup"
@@ -513,42 +557,139 @@ BindingSecGroupInfo 信息字段如下：
 
 # 应答
 {
-    "Action": "QueryResourceSecgroupResponse",
+    "Action": "DescribeResourceSecGroupResponse",
     "RetCode": 0,
     "Message": "",
     "DataSet": [
         {
-            "ResourceId": "uhost-vweq4cs5",
-            "Count": 5,
+            "ResourceId": "uni-znkqnolm",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": null
+        },
+        {
+            "ResourceId": "uni-jn24bggh",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": null
+        },
+        {
+            "ResourceId": "uni-4rtj3pxj",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": null
+        },
+        {
+            "ResourceId": "uni-s03iast5",
+            "Count": 2,
             "SecGroupInfo": [
-     {
-         "SecGroupId": "secgroup-3rnhotcv",
-         "Name": "test-lzy-web",
-         "Priority": 1
-     },
-     {
-         "SecGroupId": "secgroup-jvngrgk3",
-         "Name": "test-lzy-name",
-         "Priority": 4
-     },
-     {
-         "SecGroupId": "secgroup-q5r3csmv",
-         "Name": "test-lzy-name",
-         "Priority": 2
-     },
-     {
-         "SecGroupId": "secgroup-svpv1n5j",
-         "Name": "test-lzy-name-3",
-         "Priority": 3
-     },
-     {
-         "SecGroupId": "secgroup-yf2ow0ml",
-         "Name": "test-lzy-web",
-         "Priority": 5
-     }
+                {
+                    "SecGroupId": "secgroup-q5r3csmv",
+                    "Name": "test-lzy-name",
+                    "Priority": 2
+                },
+                {
+                    "SecGroupId": "secgroup-svpv1n5j",
+                    "Name": "test-lzy-name-3",
+                    "Priority": 3
+                }
+            ],
+            "Uni": null
+        },
+        {
+            "ResourceId": "uni-c2lwknd1",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": null
+        },
+        {
+            "ResourceId": "uni-sp4ksvwn",
+            "Count": 2,
+            "SecGroupInfo": [
+                {
+                    "SecGroupId": "secgroup-q5r3csmv",
+                    "Name": "test-lzy-name",
+                    "Priority": 2
+                },
+                {
+                    "SecGroupId": "secgroup-svpv1n5j",
+                    "Name": "test-lzy-name-3",
+                    "Priority": 3
+                }
+            ],
+            "Uni": null
+        }
+    ],
+    "TotalCount": 6
+}
+
+
+# 云主机类型 请求
+{
+    "Action": "DescribeResourceSecGroup",
+    "Backend": "SecGroup",
+    "az_group": 1000001,
+    "organization_id": 63782908,
+    "top_organization_id": 50120017,
+    "ResourceType": "uhost",
+    "Offset": 0,
+    "Limit": 10,
+    "request_uuid": "testfts-secgroup"
+}
+
+# 应答
+{
+    "Action": "DescribeResourceSecGroupResponse",
+    "RetCode": 0,
+    "Message": "",
+    "DataSet": [
+        {
+            "ResourceId": "uhost-r5rcrj4w",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": [
+                {
+                    "ResourceId": "uni-s03iast5",
+                    "Count": 2,
+                    "SecGroupInfo": [
+                        {
+                            "SecGroupId": "secgroup-q5r3csmv",
+                            "Name": "test-lzy-name",
+                            "Priority": 2
+                        },
+                        {
+                            "SecGroupId": "secgroup-svpv1n5j",
+                            "Name": "test-lzy-name-3",
+                            "Priority": 3
+                        }
+                    ]
+                },
+                {
+                    "ResourceId": "uni-4rtj3pxj",
+                    "Count": 0,
+                    "SecGroupInfo": null
+                }
+            ]
+        },
+        {
+            "ResourceId": "uhost-2ytmdwbf",
+            "Count": 0,
+            "SecGroupInfo": null,
+            "Uni": [
+                {
+                    "ResourceId": "uni-c2lwknd1",
+                    "Count": 0,
+                    "SecGroupInfo": null
+                },
+                {
+                    "ResourceId": "uni-jn24bggh",
+                    "Count": 0,
+                    "SecGroupInfo": null
+                }
             ]
         }
     ],
-    "TotalCount": 1
+    "TotalCount": 2
 }
 ```
+
